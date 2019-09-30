@@ -1,0 +1,47 @@
+.adminSideBarNav{
+    background-color: rgb(88, 88, 88);
+    padding-top:30px;
+    display: block;
+    min-height: 20px;
+    margin-top:75px;
+    min-height: 100vh;
+    float: left;
+    position: fixed;
+}
+/***Her leker ragnhild med til hun ikke vet hva er... men det funker kanskje***/
+/****https://stackoverflow.com/questions/21076922/bootstrap-how-to-collapse-navbar-earlier/26433031***/
+@media(max-width:1000px) {
+    .adminSideBarNav .navbar-brand {float:none;display: inline-block;}
+    .adminSideBarNav .navbar-nav>.nav-item { float: none; margin-left: .1rem;}
+    .adminSideBarNav .navbar-nav {float:none !important;}
+    .nav-item{width:100%;text-align:left;} 
+    .navbar-toggler {display: block !important;}
+    .navbar-toggleable-sm.collapse {display:none !important}
+    .navbar-toggleable-sm.collapse.in {display:block !important}
+    .adminSideBarNav{
+        min-width: 100%;
+        min-height: 75px;
+        padding:0;
+        padding:20px;
+        position: relative;
+    }
+    .tablesAdmin{
+        min-width: 100%;
+        padding:30px;
+        margin:0px !important;
+    }
+  }
+.linkTxt{
+    color:white;
+    font-size: 18px;
+}
+.linkToHome{
+    margin-bottom: 20px;
+}
+.linkTxt:hover{
+    color:lightgray;
+    text-decoration: none;
+}
+.linkTxt.active{
+    font-weight: bold;
+}

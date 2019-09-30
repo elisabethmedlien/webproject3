@@ -1,0 +1,123 @@
+/*to make the \n work correctly in big texts in the state of the component*/
+div {
+  white-space: pre-wrap;
+}
+
+h2.title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.reports-eng {
+  float: right;
+  border-left: 1px solid #2f2f2f2b;
+}
+
+.reports-flag {
+  width: 30px;
+  padding: 3px;
+  height: 20px;
+}
+
+.reports-eng a,
+.reports-nor a {
+  color: black;
+}
+
+.reports-eng h6,
+.reports-nor h6 {
+  display: inline-block;
+}
+
+.reports-eng ul,
+.reports-nor ul {
+  padding: 0;
+}
+
+.reports-eng i,
+.reports-nor i {
+  padding-right: 15px;
+  padding-left: 5px;
+  color: grey;
+  font-size: 14px;
+}
+
+.reports-eng li,
+.reports-nor li {
+  padding: 3px 0px 3px 0px;
+}
+
+.reports-eng-descr,
+.reports-nor-descr {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.reports-eng,
+.reports-nor {
+  display: inline-block;
+  background-color: #6d6d6d0f;
+  margin-bottom: 50px;
+}
+
+.title {
+  padding: 0px;
+  margin: 15px 0px 0px 0px;
+}
+
+li {
+  list-style: none;
+}
+.about-collab-public {
+  float: left;
+  background-color: #6d6d6d0f;
+}
+
+.about-collab-local {
+  background-color: #6d6d6d0f;
+  border-left: 1px solid #2f2f2f2b;
+}
+
+.about-collab-local,
+.about-collab-public {
+  display: inline-block;
+  padding: 15px;
+}
+
+.about-collab-public i,
+.about-collab-local i {
+  padding: 5px 15px 5px 0px;
+  font-size: 7px;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+ul li {
+  font-size: 14px;
+}
+p.greeting {
+  font-weight: 800;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .about-collab h4 {
+    padding-left: 15px;
+  }
+
+  .about-collab ul {
+    padding-left: 5px;
+  }
+  .reports-eng,
+  .reports-nor {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-top: 15px;
+  }
+}

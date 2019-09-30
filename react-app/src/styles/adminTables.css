@@ -1,0 +1,141 @@
+.tablesAdmin {
+  min-height: 100vh;
+  padding: 30px;
+  float: right;
+  margin-top: 75px;
+}
+.editScheduleItem,
+.adminEditItem {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.scrollableDiv {
+  overflow-y: auto;
+  height: 325px;
+}
+.collapseForm {
+  background-color: #d5e0e2;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.createNewBtn {
+  margin-bottom: 20px;
+}
+.elementCardAdmin {
+  background-color: #efefef;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.subElement {
+  background-color: lightgrey;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 5px;
+}
+.subElementLeft {
+  margin-right: 5px;
+}
+.btnInElementAdmin {
+  float: right;
+  margin-left: 10px;
+}
+.smallHeading {
+  font-weight: bold;
+}
+
+.editIcon {
+  float: right;
+}
+
+.isEdited {
+  display: inline-block;
+  width: 80%;
+}
+
+/**event*/
+.imgMargin {
+  margin-top: 10px;
+}
+
+/***venue*/
+#venue1 label {
+  display: block;
+}
+
+/**Schedule**/
+.dayDateTitleSchedule {
+  margin-bottom: 20px;
+  color: #822a40;
+}
+.containerScheduleElements {
+  margin-bottom: 60px;
+}
+.editScheduleItem label {
+  display: block !important;
+}
+.eventTitleProgramme {
+  padding: 0px;
+}
+/**Post and event**/
+.newsImgEdit,
+.eventImgEdit,
+.contactImgEdit {
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+.textareaNews {
+  min-height: 300px !important;
+}
+.textNewPost {
+  min-height: 300px !important;
+}
+/**general*/
+.festivalReportTitle,
+.radiobtnLabel {
+  display: inline-block;
+  margin: 0;
+}
+.reportsForm {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.marginBottom10 {
+  margin-bottom: 10px;
+}
+.addReport {
+  margin-bottom: 25px;
+}
+
+.lanLabel {
+  display: block;
+}
+.labelNonBlock {
+  display: inline;
+}
+/**Settings**/
+.settingsHeader {
+  margin-bottom: 50px;
+}
+.settingTxt {
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+  font-size: 18px;
+}
+
+.btn-selected {
+  background-color: #00b5bbbd;
+  color: black;
+}
+
+.btn-selected:focus {
+  box-shadow: none;
+}

@@ -1,0 +1,39 @@
+/** contact **/
+
+.contact-address {
+  margin: 20%;
+}
+.fa-map-marker {
+  font-size: 25px;
+  color: #8e1818;
+}
+
+/** contact persons **/
+.contact-card-img {
+  width: 140px;
+  height: 155px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.card-body {
+  padding: 5px;
+}
+
+.card-body p {
+  margin-bottom: 7px;
+}
+
+/** contact form **/
+.controls {
+  background-color: #38161e21;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css");
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .contact-address {
+    margin: 0;
+  }
+}

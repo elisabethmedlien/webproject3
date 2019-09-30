@@ -1,0 +1,27 @@
+.loginForm {
+    position: absolute ;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .loginFormCard{
+     
+  }
+  .loginHeader{
+      color:white;
+      background-color:  #822a40;
+  }
+  .loginFormBody{
+      background-color: #822a4017;
+  }
+  .submitFormLogin{
+      background-color: rgb(88, 88, 88);
+      color:white;
+  }
+  .submitFormLogin:hover{
+    background-color:gray;
+    color:white;
+}
+.labelLoginForm{
+    font-size: 18px;
+}

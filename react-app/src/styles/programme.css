@@ -1,0 +1,124 @@
+/*****Front page program*****/
+.headingProg {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3.5em;
+}
+
+.hrHeight {
+  margin-top: 2.7rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  padding: 0px;
+  margin: 15px 0px 0px 0px;
+}
+
+/*****Event card with info*****/
+.day_card {
+  margin-bottom: 50px;
+}
+.event {
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #6d6d6d0f;
+}
+.event_title,
+.venue_name {
+  margin: 0;
+}
+.event_title {
+  font-weight: bold;
+}
+.venue_name {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.infoBtn,
+.buy_ticketBtn {
+  width: 100%;
+}
+.price {
+  color: green;
+}
+.infoEvent {
+  margin-top: 3px;
+}
+/****horizontal days*****/
+.horizontal_days {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  background-color: #822a40;
+  border-radius: 5px;
+  margin: 30px 0 80px 0;
+  padding: 0px;
+}
+.horizontal_list_item {
+  padding: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: #FFFFFF;
+  font-family: balboa, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.5rem;
+  display: block;
+}
+.horizontal_list_item:hover {
+  background-color: #d33960;
+  cursor: pointer;
+}
+
+.programDayLink {
+  text-decoration: none !important;
+}
+
+/* Spacing between buttons "kjøp billet" and "mer info" */
+.buttonDiv {
+  padding-left: 0px;
+}
+
+/* Space between event details and border around the scheduleItem*/
+
+.eventDetails {
+  width: 109%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .time {
+    width: 50%;
+  }
+  .price {
+    width: 50%;
+    text-align: right;
+  }
+  .event {
+    border: none;
+    background-color: #822a4017;
+  }
+  .infoBtn,
+  .buy_ticketBtn {
+    margin-bottom: 15px;
+  }
+
+  .day_card h4 {
+    margin: 35px 0px;
+    text-align: center;
+  }
+
+  .eventDetails {
+    width: 100%;
+  }
+
+  .buttonDiv {
+    padding-left: 15px;
+}
+}

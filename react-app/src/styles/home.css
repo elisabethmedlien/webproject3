@@ -1,0 +1,125 @@
+.headerImage {
+    background: url(../img/big_header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contentHeader{
+    position:relative;
+    min-height: 300px;
+    min-height:100vh;
+    margin: auto;
+}
+.logoImg{
+    padding-top:40px;
+    display: block;
+    margin:auto;
+    width: 100%;  
+}
+
+.headerText, .dateHeader{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+.bigHeaderHome {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 25px;
+}
+.dateHeader{
+    font-family: balboa, sans-serif;
+    font-style: normal;
+    font-size: 28px;
+}
+.btnHeader{
+    background-color:  #822a40;
+    color:white;
+    font-size: 18px;
+    margin: auto;
+    border:none;
+    margin-top:5px;
+    border:1px solid white;
+}
+.btnHeader:hover{
+    background-color: #e28e6a;
+    color:white;
+    text-decoration: none;
+}
+.btnHeaderDiv{
+    text-align: center; 
+    margin: auto;
+    margin-top:4%;
+    /**bottom: 20%;
+    left:0;
+    right:0;
+    position: absolute;**/
+}
+
+/*****Artist thumbnail list*****/
+#eventsHome{
+    padding-bottom:50px;
+}
+.artistDiv {
+    height: auto;
+    position: relative;
+    margin-top: 30px;
+  }
+  .thumbArtist {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .artistName {
+    position: absolute;
+    bottom: 8px;
+    left: 24px;
+    color:white;
+    font-size: 20px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    background-color: #822a40;
+  }
+  .shortDescr{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* Pitch frontpage, i have no idea how to make this look good */
+  
+  .pitch {
+      font-size: 18px;
+      /**background-color: #7a3100b9;**/
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 10px;
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 40px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .pitch {
+        display: none;
+    }
+
+    .dateHeader {
+        font-size: 28px;
+    }
+}
